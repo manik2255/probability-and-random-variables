@@ -1,0 +1,15 @@
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=8cm]{assign2.png}
+\end{figure}
+Now we have to find \pr{X<0.5},
+\begin{align}
+\pr{X<0.5} = \int_{-\infty}^{0.5}{\fn{x}}\,dx\label{g}
+\end{align}
+Using \eqref{f} in \eqref{g}
+\begin{align}
+    \pr{X<0.5} &= \int_{0}^{0.5}{2x}\,dx\\
+    &= \left[x^2\right]_0^{0.5}\\
+    &= (0.5)^2-0\\
+  \implies  \pr{X<0.5} &= 0.25
+\end{align}
